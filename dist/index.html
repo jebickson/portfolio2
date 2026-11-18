@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fffdf5">
+  <meta name="description" content="Jebickson Samuel — Web Developer. Thoughtful interfaces, responsive experiences, and a passion for building for the web.">
+  <title>Jebickson Samuel — Web Developer</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="personal.css"><link rel="stylesheet" href="studio.css">
+  <script src="profile.js" defer></script>
+  <script src="app.js" defer></script>
+  <script src="social.js" defer></script>
+</head>
+<body>
+  <svg class="icon-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></symbol>
+    <symbol id="mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></symbol>
+    <symbol id="copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M16 8V3H3v13h5"/></symbol>
+    <symbol id="code" viewBox="0 0 24 24"><path d="m8 6-6 6 6 6m8-12 6 6-6 6m-3-16-2 20"/></symbol>
+    <symbol id="down" viewBox="0 0 24 24"><path d="M12 4v16m-6-6 6 6 6-6"/></symbol>
+    <symbol id="close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+    <symbol id="layers" viewBox="0 0 24 24"><path d="m12 3 10 6-10 6L2 9Zm-10 12 10 6 10-6M2 15l10 6 10-6"/></symbol>
+  <symbol id="linkedin" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M3 3h18v18H3z"/><path stroke="#111" stroke-width="2" d="M7 10v7m0-10v.2m4 9.8v-7m0 3c0-4 6-4 6 0v4"/></symbol><symbol id="github" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12 2a10 10 0 0 0-3 19.5v-2c-3 .6-3-1.5-4-2 .8-.8 1.6.6 2 1 .6.4 1.4.3 2 .1.1-.7.4-1.2.8-1.5-2.8-.3-5.6-1.3-5.6-5.6 0-1.2.4-2.3 1.2-3.2-.2-.8-.4-2.1.1-3.2 0 0 1.2-.4 3.5 1.2a12 12 0 0 1 6 0c2.3-1.6 3.5-1.2 3.5-1.2.5 1.1.3 2.4.1 3.2.8.9 1.2 2 1.2 3.2 0 4.3-2.8 5.3-5.6 5.6.5.4.8 1.2.8 2.3v2.1A10 10 0 0 0 12 2Z"/></symbol></defs></svg>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <aside class="sidebar" aria-label="Primary navigation">
+    <a href="#home" class="brand" aria-label="Jebickson Samuel, back to top">JS<span>.</span></a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Exp.</a>
+      <a href="#certification">Certif.</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <span class="rail-year">2026</span>
+  </aside>
+
+  <main id="main">
+    <header class="topbar" id="home">
+      <div class="social-links"><button class="icon-link linkedin-control" aria-label="LinkedIn profile" title="LinkedIn"><svg><use href="#linkedin"/></svg></button><a class="icon-link" href="https://github.com/jebickson" target="_blank" rel="noopener noreferrer" aria-label="Jebickson on GitHub" title="GitHub"><svg><use href="#github"/></svg></a><a class="icon-link" href="mailto:jebisam12@gmail.com" aria-label="Email Jebickson" title="Email"><svg><use href="#mail"/></svg></a></div>
+      <a class="button button-outline topbar-cta" href="assets/Jebickson-Samuel-CV.pdf" target="_blank" rel="noopener noreferrer" aria-label="View Jebickson Samuel’s CV (PDF)" title="View CV (PDF)">CV <svg><use href="#down"/></svg></a>
+    </header>
+
+    <section class="hero" aria-labelledby="hero-title">
+      <canvas id="dot-field" aria-hidden="true"></canvas>
+      <div class="hero-content">
+        
+        <div class="hero-kicker">The developer’s notebook · Vol. 01</div><h1 id="hero-title"><span data-first-name>Jebickson</span><br>Samuel<span class="accent">.</span></h1>
+        <h2 data-role>Full-Stack Developer</h2>
+        <p class="hero-description">Full-stack development with Next.js, Node.js, and AWS.<br>Building market tools, real-time systems, and cloud applications.<br>Have a project in mind? Let’s build it together.</p>
+        <a class="button button-primary" href="#contact">Contact</a>
+      </div>
+      
+      
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading"><span class="section-number">01 /</span><h2>A little about me<span>.</span></h2><span class="heading-line"></span></div>
+      <div class="about-layout">
+        <div class="about-copy"><p class="dropcap">I’m Jebickson Samuel, a developer working across web applications, real-time services, and cloud infrastructure. My projects bring together practical interfaces and the systems that power them, from stock market dashboards to event-driven sports commentary.</p><p>With Signalist, I explore market data, authentication, watchlists, and background workflows. Sportz focuses on reliable WebSocket connections and live updates. CloudNotes brings a Python API and managed AWS services together in a serverless notes application.</p><p>My work spans React and Next.js on the frontend, Node.js and Express for backend services, and Python on AWS Lambda. I use MongoDB, PostgreSQL, and DynamoDB for different data needs, with Git and infrastructure as code supporting the development process.</p><div class="about-socials"><span>Links →</span><div class="social-links"><button class="icon-link linkedin-control" aria-label="LinkedIn profile" title="LinkedIn"><svg><use href="#linkedin"/></svg></button><a class="icon-link" href="https://github.com/jebickson" target="_blank" rel="noopener noreferrer" aria-label="Jebickson on GitHub" title="GitHub"><svg><use href="#github"/></svg></a><a class="icon-link" href="mailto:jebisam12@gmail.com" aria-label="Email Jebickson" title="Email"><svg><use href="#mail"/></svg></a></div></div></div><div class="stack-panel"><h3><svg><use href="#layers"/></svg> Stack</h3><div class="tags stack-tags" id="stack-tags"></div><div class="stack-note"><span class="accent">&lt;/&gt;</span> Good design. Clean code. Better experiences.</div></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <div class="section-heading"><span class="section-number">02 /</span><h2>Things I’ve built<span>.</span></h2><span class="heading-line"></span></div>
+      <div class="full-gallery-link"><a href="gallery.html">→ Full Gallery</a></div><div class="project-grid" id="project-grid"></div>
+      <div class="full-gallery-link"><a href="gallery.html">→ Full Gallery</a></div><span id="project-count" class="sr-only" aria-live="polite"></span>
+    </section>
+
+    <section id="experience" class="section"><div class="section-heading"><h2>Field notes<span>.</span></h2><span class="heading-line"></span></div><article class="experience-entry"><div class="entry-heading"><h3>Signalist</h3><span>Project experience</span></div><div class="entry-heading accent"><strong>Full-stack development</strong><a href="https://github.com/jebickson/signalist_stock_app" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div><p>Signalist combines interactive market charts, company insights, and personal watchlists. Better Auth handles authentication, while Inngest coordinates background workflows for notifications and market digests.</p><div class="tags"><span>Next.js</span><span>TypeScript</span><span>MongoDB</span><span>Inngest</span></div></article><article class="experience-entry"><div class="entry-heading"><h3>Sportz WebSocket</h3><span>Project experience</span></div><div class="entry-heading accent"><strong>Real-time backend engineering</strong><a href="https://github.com/jebickson/Sportz-WebSocket" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div><p>Sportz broadcasts match commentary and score updates to subscribed clients. The backend includes connection heartbeats, backpressure protection, rate limiting, and validation with Zod, backed by PostgreSQL and Drizzle.</p><div class="tags"><span>Node.js</span><span>Express</span><span>PostgreSQL</span><span>WebSocket</span></div></article><article class="experience-entry"><div class="entry-heading"><h3>CloudNotes</h3><span>Project experience</span></div><div class="entry-heading accent"><strong>Serverless cloud development</strong><a href="https://github.com/jebickson/CloudNotes-sam" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div><p>CloudNotes supports creating, reading, updating, and deleting notes. The API runs on AWS Lambda behind API Gateway, persists notes in DynamoDB, and uses AWS SAM for repeatable infrastructure deployments. The frontend is hosted on Vercel.</p><div class="tags"><span>Python</span><span>AWS Lambda</span><span>API Gateway</span><span>DynamoDB</span></div></article></section><section id="certification" class="section"><div class="section-heading"><span class="heading-line"></span><h2>Certification<span>.</span></h2></div><div class="experience-entry"><h3>Certifications</h3><p>Certification details will be added here.</p></div></section><section id="contact" class="section contact-section">
+      <div class="section-heading"><span class="section-number">05 /</span><h2>Drop me a note<span>.</span></h2><span class="heading-line"></span></div>
+      <div class="contact-content"><p class="muted">Have an idea to discuss? Send me an email to talk about a project or collaboration. You can also explore my work on <a href="https://github.com/jebickson">GitHub</a>.</p><div class="contact-email-row"><svg><use href="#mail"/></svg><a data-email data-email-text href="mailto:jebisam12@gmail.com">jebisam12@gmail.com</a><button class="icon-link copy-button" id="copy-email" aria-label="Copy email address"><svg><use href="#copy"/></svg></button></div><a class="meeting-link" href="mailto:jebisam12@gmail.com?subject=Let%E2%80%99s%20schedule%20a%20meeting">▣ Set up a meeting</a><div class="social-links"><button class="icon-link linkedin-control" aria-label="LinkedIn profile" title="LinkedIn"><svg><use href="#linkedin"/></svg></button><a class="icon-link" href="https://github.com/jebickson" target="_blank" rel="noopener noreferrer" aria-label="Jebickson on GitHub" title="GitHub"><svg><use href="#github"/></svg></a><a class="icon-link" href="mailto:jebisam12@gmail.com" aria-label="Email Jebickson" title="Email"><svg><use href="#mail"/></svg></a></div></div>
+    </section>
+
+    <footer><span>© <span id="year">2026</span> <span data-full-name>Jebickson Samuel</span></span><span>All rights reserved.</span><div class="footer-links"><a href="privacy.html">Privacy</a><a href="legal.html">Legal Notice</a></div><a href="#home">Back to top <svg><use href="#arrow"/></svg></a></footer>
+  </main>
+  <dialog id="project-dialog" aria-labelledby="dialog-title"><button class="dialog-close icon-link" aria-label="Close project details"><svg><use href="#close"/></svg></button><img id="dialog-image" alt=""><div class="dialog-body"><p class="eyebrow">PROJECT DETAILS</p><h2 id="dialog-title"></h2><div class="tags" id="dialog-tags"></div><p id="dialog-description"></p><div class="dialog-actions"><a class="button button-primary" id="dialog-live" target="_blank" rel="noopener noreferrer">View website <svg><use href="#arrow"/></svg></a><a class="text-link" id="dialog-code" target="_blank" rel="noopener noreferrer">View code <svg><use href="#code"/></svg></a></div></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript-note">Enable JavaScript to explore the project gallery. You can still reach Jebickson at <a href="mailto:jebisam12@gmail.com">jebisam12@gmail.com</a>.</p></noscript>
+</body>
+</html>
